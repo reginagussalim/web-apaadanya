@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .top {
+    width: 100%;
+    height: 103px;
+    background-color: #64CCC5;
+}
+
+.container .boxContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .boxContainer .box {
+    width: 270px;
+    height: 360px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContent {
+    background-color: white;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.container .bottom {
+    height: 159px;
+    width: 100%;
+    background-color: #64CCC5;
+}
+
+.boxContent .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxContent .inputWrapper input{
+    width: 100%;
+    height: 39px;
+    border: 1px solid black;
+}
